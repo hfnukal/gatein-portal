@@ -1,0 +1,19 @@
+@import url(Stylesheet.css);
+
+.UIHomePagePortlet {
+    overflow:hidden;
+    margin-right:8px;
+    width: 100%;
+}
+
+.UIHomePagePortlet .HomePortletAdBackround {
+    background:#043c54 url('/jpp-branding-extension/templates/skin/webui/component/UIHomePagePortlet/DefaultSkin/background/bgDark.png') no-repeat;
+}
+
+.UIHomePagePortlet .HomePortletMessage {
+    background: #043c54;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px 20px;
+}
