@@ -1512,6 +1512,19 @@ memory option properties. This should be removed when we can just set the compil
         </plugins>
       </build>
     </profile>
+    <profile>
+      <id>pkg-jpp</id>
+      <activation>
+        <property>
+          <name>gatein.dev</name>
+          <value>jpp</value>
+        </property>
+      </activation>
+      <properties>
+        <product.name>JBoss JPP</product.name>
+        <product.version>6.1.0.ER1-prod</product.version>
+      </properties>
+    </profile>
   </profiles>
 
   <!-- To be removed and replaced by settings in user config -->
