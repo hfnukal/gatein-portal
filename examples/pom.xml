@@ -113,6 +113,21 @@
         <module>skins</module>
       </modules>
     </profile>
+    <profile>
+      <id>pkg-jpp</id>
+      <activation>
+        <property>
+          <name>gatein.dev</name>
+          <value>jpp</value>
+        </property>
+      </activation>
+      <modules>
+        <module>extension</module>
+        <module>portal</module>
+        <module>portlets</module>
+        <module>skins</module>
+      </modules>
+    </profile>
   </profiles>
 
 </project>
