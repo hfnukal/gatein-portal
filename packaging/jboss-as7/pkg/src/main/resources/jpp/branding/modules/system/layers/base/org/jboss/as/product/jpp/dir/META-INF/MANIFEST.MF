@@ -1,0 +1,3 @@
+JBoss-Product-Release-Name: Portal Platform
+JBoss-Product-Release-Version: @product.version@
+JBoss-Product-Console-Slot: jpp
