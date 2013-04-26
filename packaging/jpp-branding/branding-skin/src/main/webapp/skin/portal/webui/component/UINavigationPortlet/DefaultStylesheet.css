@@ -1,0 +1,267 @@
+/**
+ * JBoss, Home of Professional Open Source.
+ * Copyright 2012, Red Hat, Inc., and individual contributors
+ * as indicated by the @author tags. See the copyright.txt file in the
+ * distribution for a full listing of individual contributors.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+ */
+
+.UINavigationPortlet ul { 
+    list-style:none;    
+    padding:0px;
+    margin:0px;
+}
+
+.UINavigationPortlet {
+    background: #a3a3a3;
+    padding: 0;
+    border-top: 1px solid #b4b4b4;
+    border-left: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    _height: 0;
+}
+    
+.UINavigationPortlet .UINavigationBar {
+    white-space: nowrap;
+    background-color:#0e4aaa;
+    background: url('DefaultSkin/background/nav-bg.jpg') no-repeat left top;
+    padding: 0 10px 0 10px;
+    height: 31px;       
+    !position: relative;
+}
+
+.UINavigationPortlet .UINavigationBar  .UITab  {
+    float:left;/* orientation=lt */
+
+    padding: 0px 10px 0 10px;   
+    font-weight:bold;
+    text-align:center;
+}
+.UINavigationPortlet  .UITab  > span {
+    padding: 5 6px;
+    color: #f57a00;
+    line-height: 31px;
+    display:block;
+    zoom:1;
+}
+
+.UINavigationPortlet  .UITab  .DropDownArrowIcon  {
+    padding: 0 19px 0 6px;/* orientation=lt */
+
+}
+
+.UINavigationPortlet .UITab a.TabIcon {
+    display:block;
+    padding:0 0 0 21px;/* orientation=lt */
+
+
+}
+
+.UINavigationPortlet .UITab  > span  a.DefaultPageIcon {
+    background:none;
+    padding:0;
+}
+
+
+/*###############-Selected Navigation Tab-################*/
+
+.UINavigationPortlet  .UINavigationBar  .SelectedNavigationTab {
+    background-color: #fff;
+    line-height: 31px;  
+    
+    
+}
+
+.UINavigationPortlet  .SelectedNavigationTab  > span {
+    background-color:#fff;
+}
+
+.UINavigationPortlet  .SelectedNavigationTab a {
+}
+
+.UINavigationPortlet  .SelectedNavigationTab .DropDownArrowIcon   {     
+}
+
+/*###########################-NormalNavigationTab--############################*/
+
+
+.UINavigationPortlet  .NormalNavigationTab .DropDownArrowIcon  {
+    cursor: pointer;
+}
+
+.UINavigationPortlet .UINavigationBar .NormalNavigationTab {
+    line-height: 31px;
+}
+
+.UINavigationPortlet  .NormalNavigationTab a.TabIcon {
+    color: #fff;
+}
+
+/*###########################-Hightlight-NavigationTabTab--############################*/
+
+.UINavigationPortlet .UINavigationBar .HighlightNavigationTab {
+    line-height: 31px;
+}
+
+.UINavigationPortlet  .HighlightNavigationTab .UITab {
+
+}
+
+.UINavigationPortlet  .HighlightNavigationTab {
+    color: #000;
+    background-color: #ffF;
+}
+
+
+.UINavigationPortlet  .HighlightNavigationTab .DropDownArrowIcon   {    
+    background-color: #fff;
+    
+}
+
+/*============ Submenu  =====================*/
+
+.UINavigationPortlet .MenuItemContainer {
+    white-space: nowrap;
+    border: solid #b7b7b7 1px; /*fix for IE*/
+    text-align: left; /* orientation=lt */
+
+    z-index: 1; 
+    background: #FFF;
+    padding: 1px 1px 6px 1px; 
+    opacity: 0.9;
+}
+
+.UINavigationPortlet .MenuItemContainer .MenuItem {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    line-height: 24px;
+    height: 24px;
+    width: auto;
+    display: block;
+    white-space: nowrap;
+    font-weight: normal;
+    padding:0 5px;      
+}
+
+.UINavigationPortlet .MenuItemContainer  .ArrowIcon{    
+    background: url('DefaultSkin/background/Button.gif') no-repeat right -46px; /* orientation=lt */ 
+ 
+}
+
+
+.UINavigationPortlet .MenuItemContainer .MenuItem a {
+    padding: 0px 20px 0px 25px; /* orientation=lt */
+    padding: 0px 25px 0px 20px; /* orientation=rt */
+    display: block;
+}
+
+.UINavigationPortlet .MenuItemContainer .MenuItem a:hover {
+    color: #3e8df0;
+}
+
+.UINavigationPortlet .MenuItemContainer .SelectedItem {
+    line-height: 24px;
+    width: auto; 
+    background-color: #c7c7c7;
+    color: #3e8df0;
+}
+
+.UINavigationPortlet .MenuItemContainer .SelectedItem   a {
+    color: #3e8df0;
+}
+
+.UINavigationPortlet .MenuItemContainer .SelectedItem .NormalItem a {
+    color: #000;
+}
+
+.UINavigationPortlet .MenuItemContainer .SelectedItem .NormalItem a:hover {
+    color: #3e8df0;
+}
+
+.UINavigationPortlet .MenuItemContainer .NormalItem .SelectedItem a {
+    color: #3e8df0;
+}
+
+.UINavigationPortlet .MenuItemContainer .ItemIcon {
+    height: 24px; 
+    width: auto;
+
+}
+
+/*============ Scroll Buttons =====================*/
+
+.UINavigationPortlet .ScrollButtons {   
+    margin: 10px 0 0 0;
+    display: none;  
+    cursor:pointer;
+    float: right; /* orientation=lt */
+    float: left; /* orientation=rt */
+    height: 15px;       
+    width: 20px;
+}
+
+.UINavigationPortlet .ScrollButtons a {
+    display:block;
+    cursor:pointer;
+    width: 10px;
+    height: 15px;
+    float: left; /* orientation=lt */
+    float: right; /* orientation=rt */
+}
+
+.UINavigationPortlet .ScrollLeftButton {
+    background: url('DefaultSkin/background/Button.gif') no-repeat left -15px; /* orientation=lt */
+    background: url('DefaultSkin/background/Button.gif') no-repeat right -15px; /* orientation=rt */
+
+}
+
+.UINavigationPortlet .ScrollRightButton {
+    background: url('DefaultSkin/background/Button.gif') no-repeat right -15px; /* orientation=lt */
+    background: url('DefaultSkin/background/Button.gif') no-repeat left -15px; /* orientation=rt */
+}
+
+.UINavigationPortlet .DisableScrollLeftButton {
+    background: url('DefaultSkin/background/Button.gif') no-repeat left -30px; /* orientation=lt */
+    background: url('DefaultSkin/background/Button.gif') no-repeat right -30px; /* orientation=rt */
+}
+
+.UINavigationPortlet .DisableScrollRightButton { 
+    background: url('DefaultSkin/background/Button.gif') no-repeat right -30px; /* orientation=lt */
+    background: url('DefaultSkin/background/Button.gif') no-repeat left -30px; /* orientation=rt */
+}
+
+.UINavigationPortlet .HighlightScrollLeftButton ,.UINavigationPortlet .ScrollLeftButton:hover{
+    background: url('DefaultSkin/background/Button.gif') no-repeat left top; /* orientation=lt */
+    background: url('DefaultSkin/background/Button.gif') no-repeat right top; /* orientation=rt */
+}
+
+.UINavigationPortlet .HighlightScrollRightButton,.UINavigationPortlet .ScrollRightButton:hover {
+    background: url('DefaultSkin/background/Button.gif') no-repeat right top; /* orientation=lt */
+    background: url('DefaultSkin/background/Button.gif') no-repeat left top; /* orientation=rt */
+}
+
+/***********GroupNavigation*************/
+
+.UINavigationPortlet .GroupNavigation  {
+    background-color:#B4B4B4;
+}
+
+.UINavigationPortlet .GroupNavigation .HighlightNavigationTab  > span {
+    background-color:#ffcf01;
+}
+
+

@@ -1,0 +1,263 @@
+.UIWindow .UIHomePagePortlet {	
+	margin: 0px;
+	padding: 10px;
+}
+
+.UIHomePagePortlet {	
+	background: white;
+	padding: 0px;
+	width: 978px;
+}
+
+.UIHomePagePortlet .TRContainer .PortletDecoration {	
+	padding: 10px;
+}
+
+.UIHomePagePortlet .TRContainer {
+	width: 222px;
+	height: 390px;
+	float: right; /* orientation=lt */
+	float: left; /* orientation=rt */
+	border: 1px solid #C6C6C6;	
+	text-align: center;
+	background: url('background/BgRightColumn.gif') repeat-x bottom center;
+   display: none;
+   visibility: hidden;
+}
+
+.UIHomePagePortlet .TRContainer a {
+	text-decoration: none;
+}
+
+.UIHomePagePortlet .TRContainer .GuideText {
+	text-align: justify;
+	color: #777777;
+}
+
+.UIHomePagePortlet .TRContainer .DotLine {
+	background: url("background/Line.gif") no-repeat -2px top;
+	height: 1px;
+	width: 182px;
+	margin: 7px auto;
+}
+
+.UIHomePagePortlet .TRContainer .VersionIcon {
+	background: url("background/HomePagePortlet.gif") no-repeat left -978px;
+	height: 65px;
+	width: 80px;
+	margin: 20px auto;
+	cursor: pointer;
+	display: block;
+}
+
+.UIHomePagePortlet .TRContainer .ContactIcon {
+	background: url("background/HomePagePortlet.gif") no-repeat left -1209px;
+	height: 70px;
+	width: 80px;
+	margin: 20px auto;
+	cursor: pointer;
+	display: block;
+}
+
+.UIHomePagePortlet  .TLContainer {
+	/*border-left:1px solid #B4B4B4;*/
+   /*border-right:1px solid #B4B4B4;*/
+   /*border-bottom:1px solid #B4B4B4;*/
+	float: left; /* orientation=lt */	
+	float: right; /* orientation=rt */
+	width: 100%;
+}
+
+.UIHomePagePortlet .TLContainer .PortletDecoration {	
+	background: #fff;
+}
+
+.UIHomePagePortlet .HomePortletAdBackround {	
+	background-color: #870004;
+}
+
+.HomePortletAdBackround  img { 
+        z-index:1000;
+}
+
+*html .UIHomePagePortlet .AdImageLeft {
+}
+
+.UIHomePagePortlet .AdImageRight {
+	text-align: right; /* orientation=lt */
+	text-align: left; /* orientation=rt */
+	height: 278px; 
+	padding: 0px 10px 0px 200px; /* orientation=lt */
+	padding: 0px 200px 0px 10px; /* orientation=rt */
+}
+
+.UIHomePagePortlet .AdImageLeft .EmptyBlock {
+	display: none;
+}
+
+.UIHomePagePortlet .AdImageLeft .EmptyBlock div {
+	font-size: 19px;
+}
+
+.UIHomePagePortlet .AdImageLeft .ProductSlogan {
+	font-family: arial;
+	color: #666666;
+	float: right;
+	font-size: 9px;
+	width: 500px;
+}
+
+.UIHomePagePortlet .AdImageLeft .ProductIntro {
+	font-size: 14px;
+	color: #315d8f;
+	line-height: 16px;
+}
+
+.UIHomePagePortlet .HomePortletContent {
+	/*margin-top: 8px;*/
+        border-style: none;
+        border: 0px;
+}
+
+.UIHomePagePortlet .HomePortletContent .LeftAccountsContainer {
+	padding-left: 3px;
+	background: url('background/jpp/username-bg.gif') repeat-x left top;
+}
+
+_html .UIHomePagePortlet .HomePortletContent .LeftAccountsContainer {
+	background: url('background/jpp/username-bg.gif') repeat-x left top;
+}
+
+.UIHomePagePortlet .HomePortletContent .RightAccountsContainer {
+	background: url('background/jpp/username-bg.gif') repeat-x left top;
+	padding-right: 3px;
+	_padding-right: 0px;
+}
+
+_html .UIHomePagePortlet .HomePortletContent .RightAccountsContainer {
+	background: url('background/jpp/username-bg.gif') repeat-x left top;
+	padding-right: 8px;/* orientation=rt */
+}
+
+.UIHomePagePortlet .HomePortletContent .MiddleAccountsContainer {
+	background: url('background/jpp/usernames.jpg') no-repeat left top;
+	height: 167px;
+	padding: 0;
+}
+
+.UIHomePagePortlet .HomePortletContent .AccountsContainerDeco {
+	height: 105px;
+   padding:43px 0 0 31px;
+	overflow: hidden;
+}
+
+.UIHomePagePortlet .HomePortletContent .InstructionTitle {
+	font-size: 12px;
+	line-height: 22px;
+	color: #808185;
+	text-align: left; /* orientation=lt */
+	text-align: right; /* orientation=rt */
+   display: none;
+}
+
+.UIHomePagePortlet .HomePortletContent .AccountBlock {
+	height: 105px; 
+	width: 218px;
+	float: left;
+	text-align: right; /* orientation=rt */
+   cursor: pointer;
+}
+
+
+.UIHomePagePortlet .HomePortletContent .AdministratorUser {
+
+}
+
+.UIHomePagePortlet .HomePortletContent .ManagerUser {
+
+}
+
+.UIHomePagePortlet .HomePortletContent .NormalUser {
+
+}
+
+.UIHomePagePortlet .HomePortletContent .DemoUser {
+
+}
+
+.UIHomePagePortlet .HomePortletContent .SeparatorLine {
+	height: 100px;
+	width: 9px;
+	float: left; /* orientation=lt */
+	float: right; /* orientation=rt */
+	padding: 0px 4px 0px;
+	background: none; /* orientation=lt */
+	background: none; /* orientation=rt */
+}
+
+.UIHomePagePortlet .HomePortletContent .AccountInfos {
+	padding-top: 8px;
+    display: none;
+}
+
+.UIHomePagePortlet .AccountInfos .Lable {
+	line-height: 16px;
+	float: left; /* orientation=lt */
+	float: right; /* orientation=rt */
+	display: block;
+}
+
+.UIHomePagePortlet .AccountInfos span {
+	font-weight: bold;
+	color: #2c6fbd;
+	padding: 0px 3px;
+	line-height: 16px;
+	float: left; /* orientation=lt */
+	float: right; /* orientation=rt */
+	display: block;
+}
+
+.UIHomePagePortlet .HomePortletContent .AccountTitle {
+	font-size: 12px;
+	color: #454e56;
+	line-height: 40px;
+	font-weight: bold;
+   text-align:right;
+   width:61%;
+}
+
+.UIHomePagePortlet .HomePortletContent .Username div {
+   position: absolute;
+   left: 55px;
+}
+
+.UIHomePagePortlet .HomePortletContent .Passwords div {
+   position: absolute;
+   left: 55px;
+   top: 16px;
+}
+
+.UIHomePagePortlet .HomePortletContent .Username span{
+   position: absolute;
+   left: 107px;
+}
+
+.UIHomePagePortlet .HomePortletContent .Passwords span {
+   position: absolute;
+   left: 107px;
+   top: 16px;
+}
+
+.UIHomePagePortlet .HomePortletContent .Username {
+   position: relative;
+   width: 61%;
+}
+
+.UIHomePagePortlet .HomePortletContent .Passwords {
+   position: relative;
+   width: 61%;
+}
+
+.UIHomePagePortlet .ClearBoth {
+	clear: both; 
+}

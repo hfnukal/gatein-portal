@@ -1,0 +1,56 @@
+
+.UIWindow .UIBreadcumbsPortlet {	
+	margin: 0px;
+}
+
+.UIBreadcumbsPortlet {
+}
+
+.UIBreadcumbs {
+        padding: 0px;
+	line-height: 25px;
+	border-left: 1px solid #b4b4b4;
+        border-right: 1px solid #b4b4b4;
+        _height: 0;
+}
+
+.UIBreadcumbs a {
+	float: left; /* orientation=lt */
+	float: right; /* orientation=rt */
+	color: #6d7fa1; 
+}
+
+.UIBreadcumbs a.Selected {
+	color: #777777;
+	font-weight: bold;
+}
+
+.UIBreadcumbs .HomeIcon {
+	float: left; /* orientation=lt */
+	float: right; /* orientation=rt */
+	margin: 4px 5px 0 0; /* orientation=lt */
+	margin: 4px 0 0 5px; /* orientation=rt */
+}
+
+.UIBreadcumbs .LeftBreadcumbsBar {
+	background-color: #fff;
+}
+
+.UIBreadcumbs .RightBreadcumbsBar {
+	height: 25px;
+}
+
+.UIBreadcumbs .BreadcumbsInfoBar {
+	height: 25px; 
+	line-height: 25px;
+	padding-left: 10px;	/* orientation=lt */
+	padding-right: 10px; /* orientation=rt */
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.UIBreadcumbs .RightBlackGridArrowIcon {
+	float: left; /* orientation=lt */
+	float: right; /* orientation=rt */
+	margin: 5px 0px 0px 0px;
+}

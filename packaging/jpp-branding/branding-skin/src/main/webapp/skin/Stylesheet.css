@@ -1,0 +1,31 @@
+@import url(/eXoResources/skin/DefaultSkin/webui/component/Stylesheet.css);
+@import url(JppSkin/portal/webui/component/UIPortalApplicationSkin.css);
+@import url(/eXoResources/skin/DefaultSkin/webui/component/Stylesheet.css);
+@import url(/eXoResources/skin/PortletThemes/Stylesheet.css);
+@import url(/eXoResources/skin/Portlet/Stylesheet.css);
+
+/* GateIn fix */
+.UILoginForm .UIAction .SimpleStyle {
+    width: auto;
+}
+/*
+.UIApplicationRegistryPortlet {
+    overflow: hidden !important;
+}
+*/
+.UIChangeSkinForm .UIItemSelector .TemplateContainer .JppSkinImage {
+  margin: auto;
+  width: 329px; height:204px;
+  background: url('JppSkin/background/JppSkinImage.png') no-repeat top;
+  cursor: pointer ;
+}
+
+.UILoginForm .LoginDecorator .TopRightLoginDecorator {
+    background: url("JppSkin/portal/webui/component/widget/UILoginForm/background/Login.gif") no-repeat scroll right top transparent;
+    padding: 0 134px 0 0;
+}
+
+.UILoginForm .LoginDecorator .TopRightLoginDecorator {
+    background: url("JppSkin/portal/webui/component/widget/UILoginForm/background/Login.gif") no-repeat scroll right top transparent;
+    padding: 0 134px 0 0;
+}

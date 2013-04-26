@@ -1,0 +1,278 @@
+
+.UIToolbarContainer {
+	padding: 0px;
+	height: auto;
+	position:relative;
+	z-index:4;
+}
+.UIToolbarContainer ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+.UIToolbarContainer .UserInfoPortletTDContainer {
+	float: right; /* orientation=lt */
+	float: left; /* orientation=rt */
+}
+
+.UIToolbarContainer .LAYOUT-CONTAINER {
+	overflow: hidden;
+}
+
+.UIToolbarContainer .LAYOUT-BLOCK .UIRowContainer {
+	height: auto;
+	min-height: inherit;
+	border: none;
+	background: none;
+}
+
+.UIToolbarContainer .ToolbarContainer .TRContainer {
+	height: 32px;
+}
+
+.UIToolbarContainer .UIContainer {
+	padding: 0px;
+}
+
+.UIToolbarContainer .UITableColumnContainer {
+	margin: 0px;
+}
+
+.UIToolbarContainer .NormalContainerBlock .ToolbarContainer {	
+	background: #f6f6f6 none repeat-x left top;
+	height: 32px;
+	border-left: 1px solid #a2a2a2;
+	border-right: 1px solid #a2a2a2;
+	border-bottom: 1px solid #dedede;
+}
+
+.UIToolbarContainer .ToolbarContainer .TBIcon {
+	display: block;
+	padding: 0px 5px 0px 35px; /* orientation=lt */
+	padding: 0px 35px 0px 5px; /* orientation=rt */
+	white-space: nowrap;
+	color: #540306;
+/* TODO: figure out how to make this work with browsers other than ie6 :(   float: left; */
+}
+
+.UIToolbarContainer .UITab a:hover {
+	color: #058ee6;
+}
+
+.UIToolbarContainer .UIHorizontalTabs  {
+	height: 32px; /* orientation=lt */
+	height: auto; /* orientation=rt */
+	float: left; /* orientation=lt */
+	float: none; /* orientation=rt */
+}
+
+.UIToolbarContainer .UIHorizontalTabs .UITab {
+        /*JPP change*/
+        width:100% !important;
+	line-height: 30px;
+	background: url('background/ToolbarContainer.gif') no-repeat right -32px; /* orientation=lt */
+	background: url('background/ToolbarContainer-rt.gif') no-repeat left -32px; /* orientation=rt */
+	padding-right: 2px; /* orientation=lt */
+	padding-left: 2px; /* orientation=rt */
+	text-align: left; /* orientation=lt */
+	text-align: right; /* orientation=rt */
+	float: none; 
+	!float: left;/* orientation=rt */
+	_float: none;/* orientation=rt */
+}
+
+.UserToolBarSitePortletTDContainer {
+	position: relative;
+}
+
+.UserToolBarGroupPortletTDContainer {
+	position: relative;
+}
+
+.UserToolBarGroupPortletTDContainer {
+	position: relative;
+}
+
+.UserToolBarDashboardPortletTDContainer {
+	position: relative;
+}
+
+.AdminToolBarPortletTDContainer {
+	position: relative;
+}
+
+/****************************/
+
+.UIToolbarContainer .MenuItemContainer {	
+	position: absolute;
+	border: 1px solid #9e9fa3;
+	display: none;
+    z-index: 1;
+}
+
+ .UIToolbarContainer .MenuItemContainer li{		
+	display:block;
+}
+
+.UIToolbarContainer .TitleBar {
+	background: #cdd7e0;
+	height: 23px;
+	line-height: 23px;
+	color: #474747;
+	font-weight: bold;
+	padding: 0px 5px;
+	white-space: nowrap;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.UIToolbarContainer  .ArrowIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat right -452px; /* orientation=lt */
+	background: url('background/ToolbarContainer-rt.gif') no-repeat -5px -452px; /* orientation=rt */
+}
+
+.UIToolbarContainer .MenuItem {	
+	background-color: #f5f9fa;	
+	height: 28px;
+	line-height: 28px;
+	width: 100%;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+*+html .UIToolbarContainer .MenuItem {
+	height: auto;
+	width: auto;
+}
+
+.UIToolbarContainer .MenuItem .MenuItemHover {
+	background-color: #a4a4a4;
+}
+
+.UIToolbarContainer .MenuItem a {	
+	display: block;
+	padding: 0px 25px 0px 35px; /* orientation=lt */
+	padding: 0px 35px 0px 25px; /* orientation=rt */
+	white-space: nowrap;
+	color: #3e3e3e;
+    display: block;
+*/    height: 28px; */
+}
+
+.UIToolbarContainer .ItemIcon {	
+	background-position: 10px center; /* orientation=lt */
+	background-position: 95% center; /* orientation=rt */
+}
+
+/**********************************/
+
+.UIToolbarContainer .DashboardIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -64px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -64px; /* orientation=rt */
+}
+
+.UIToolbarContainer .SiteIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -98px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -98px; /* orientation=rt */
+}
+
+.UIToolbarContainer .SitesIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -96px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -96px; /* orientation=rt */
+}
+
+.UIToolbarContainer .GroupIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat left -128px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -128px; /* orientation=rt */
+	margin-left: 10px; /* orientation=lt */
+	margin-right: 10px; /* orientation=rt */
+}
+
+.UIToolbarContainer .EditorIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -161px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -161px; /* orientation=rt */
+}
+
+.UIToolbarContainer .AddPageIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -320px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -320px; /* orientation=rt */	
+}
+
+.UIToolbarContainer .EditPageIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -352px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -352px; /* orientation=rt */
+}
+
+.UIToolbarContainer .EditSiteIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -384px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -384px; /* orientation=rt */	
+}
+
+.UIToolbarContainer .ChangeLanguageIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -192px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -192px; /* orientation=rt */
+}
+
+.UIToolbarContainer .ChangeSkinIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -224px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -224px; /* orientation=rt */
+}
+
+.UIToolbarContainer .AccountSettingIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -256px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -256px; /* orientation=rt */
+}
+
+.UIToolbarContainer .SignOutIcon {
+	background: url('background/ToolbarContainer.gif') no-repeat 5px -288px; /* orientation=lt */
+	background: url('background/ToolbarContainer.gif') no-repeat 100% -288px; /* orientation=rt */
+}
+
+.UIToolbarContainer .Name a {
+	background: url('background/UseIcon.png') no-repeat left center; /* orientation=lt */
+	background: url('background/UseIcon.png') no-repeat right center; /* orientation=rt */
+	padding: 0px 10px 0px 25px; /* orientation=lt */
+	padding: 0px 25px 0px 10px; /* orientation=rt */
+	color: #e66a1f; font-weight:bold; cursor:pointer;
+	display: block;
+	line-height: 32px;
+}
+
+.UIToolbarContainer .Name a:hover {
+	color: #058ee6;
+}
+/***************UIStarToolBarPortlet*****************/
+
+.UIStarToolBarPortlet {
+	background: url('background/RedHatLogo.gif') no-repeat 6px 4px; /* orientation=lt */
+	background: url('background/RedHatLogo.gif') no-repeat 6px 4px; /* orientation=rt */
+	width: 82px;
+	height: 32px;
+}
+
+.UIStarToolBarPortlet .UITab {
+	height: 30px;
+	float: none; /* orientation=rt */
+}
+
+/***************UIUserToolBarPortlet*****************/
+.UIUserToolbarPortlet .MenuItemContainer .SelectedItem {
+	line-height: 24px;
+	width: auto; 
+	background: #c7c7c7;
+	color: #3e8df0;
+}
+
+.UIToolbarContainer .UIAdminToolbarPortlet .UITab {
+	background: none;
+	padding: 0px;
+}
+
+.UIToolbarContainer .UIAdminToolbarPortlet .UIHorizontalTabs .UITab {
+	float: none; /* orientation=rt */
+}
+
+.UIUserToolBarSitePortlet .ItemIcon {	
+	background-position: 97% center; /* orientation=rt */
+}

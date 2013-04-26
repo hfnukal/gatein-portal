@@ -1,0 +1,22 @@
+@import url(/exoadmin/skin/navigation/webui/component/DefaultStylesheet.css);
+
+.UIManagement .ManagementBlock .Image {
+	background: url("/jpp-branding-skin/skin/navigation/webui/component/background/PlImg.gif") no-repeat center;
+	background-size: 50% 90%;
+}
+
+.UIManagement .ManagementBlock .Image img {
+	display:none;
+}
+
+.UIItemSelector .ItemDetailList .TemplateContainer .classicImage {
+	height: 222px;
+	background: url('background/TemplateContainer.jpg') no-repeat center -392px;
+	margin-top: 9px;
+}
+
+.UIItemSelector .ItemDetailList .TemplateContainer .basicImage {
+	height: 222px;
+	background: url('background/TemplateContainer.jpg') no-repeat center -1059px;
+	margin-top: 9px;
+}

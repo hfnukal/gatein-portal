@@ -1,0 +1,30 @@
+<%
+  import org.exoplatform.portal.webui.util.Util;
+  import org.exoplatform.portal.application.PortalRequestContext;
+
+	PortalRequestContext pcontext = Util.getPortalRequestContext();	
+	String initialURI = pcontext.getInitialURI();
+%>
+
+<div class="UIHomePagePortlet ClearFix" id="$uicomponent.id">
+	<div class="TLContainer">
+		<div class="PortletDecoration">		
+			<div class="HomePortletAdBackround">
+				<div class="AdImageLeft">
+                    <img src="/jpp-branding-extension/templates/skin/webui/component/UIHomePagePortlet/DefaultSkin/background/redbox-tab1-bg.jpg" alt="<%=_ctx.appRes("UIHomePagePortlet.Label.Splash")%>" usemap="#jpp-main"/>
+				</div>
+			</div>
+            <% if(pcontext.getRemoteUser() == null) { %>
+                <div class="HomePortletMessage">
+                    <%=_ctx.appRes("UIHomePagePortlet.Message.Anonymous")%>
+                </div>
+            <% } %>
+		</div>	
+	</div>	
+</div>
+<map id="jpp-main" name="jpp-main">
+    <area shape="rect" alt="<%=_ctx.appRes("UIHomePagePortlet.Label.Portals")%>" title="<%=_ctx.appRes("UIHomePagePortlet.Label.Portals")%>" coords="38,150,222,172" href="/jpp-branding-extension/docs/JBoss_Portals_0310.pdf" target="_blank" />
+    <area shape="rect" alt="<%=_ctx.appRes("UIHomePagePortlet.Label.QS")%>" title="<%=_ctx.appRes("UIHomePagePortlet.Label.QS")%>" coords="38,175,316,199" href="https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&product=jbportal&version=6.0.0" target="_blank" />
+    <area shape="rect" alt="<%=_ctx.appRes("UIHomePagePortlet.Label.Learn")%>" title="<%=_ctx.appRes("UIHomePagePortlet.Label.Learn")%>" coords="38,205,113,222" href="http://www.jboss.com/products/platforms/portals/" target="_blank" />
+    <area shape="rect" alt="<%=_ctx.appRes("UIHomePagePortlet.Label.Videos")%>" title="<%=_ctx.appRes("UIHomePagePortlet.Label.Videos")%>" coords="135,5,195,31" href="http://vimeo.com/channels/gatein" target="" />
+</map>

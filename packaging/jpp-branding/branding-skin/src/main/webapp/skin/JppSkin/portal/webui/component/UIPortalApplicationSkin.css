@@ -1,0 +1,115 @@
+@import url(control/Stylesheet.css);
+@import url(/eXoResources/skin/DefaultSkin/portal/webui/component/customization/Stylesheet.css);
+@import url(view/Stylesheet.css);
+@import url(/eXoResources/skin/DefaultSkin/portal/webui/component/widget/Stylesheet.css);
+
+html {
+	margin: 0px; padding: 0px;
+	*overflow-x: hidden;
+}
+
+body {
+	 background: #fff url('../../../background/gray-dot-bg.gif') repeat-x top left;
+	margin: 0px; padding: 0px;
+	font-family: Tahoma,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	overflow-x: hidden;
+}
+
+div, table, tr, td,img,form {
+	padding: 0px; margin: 0px;
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+	margin: 10px 0;
+}
+
+table {
+  width: 100%;
+	border-spacing:	0px;
+	border-collapse: collapse;
+}
+
+th, td {
+	vertical-align: top;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+}
+
+input, textarea {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+}
+
+img {
+	border: none; vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*###############################################################################################*/
+
+.OverflowContainer {
+	overflow: hidden;
+	width: 100%;
+}
+
+.ClearFix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.ClearFix {
+  !display: inline-block;
+  !zoom: 1;
+  !display: block; 
+}
+
+.InlineContainer {
+	overflow: hidden;
+}
+
+.AjaxLoadingMask {
+  width: 180px; height: 110px;
+  background: white;
+  border: 1px solid #66667e;
+  padding: 1px;
+}
+
+.AjaxLoadingMask .LoadingContainer {
+  height: 108px;
+  background: #ffffff;
+  border: solid 1px #a8a9bb;
+}
+
+.AjaxLoadingMask .LoadingText {
+  text-align: center;
+  padding: 10px 0px 5px 0px;
+}
+
+.AjaxLoadingMask .LoadingProgressBar {
+  width: 32px; height: 40px;
+  background: url('/eXoResources/skin/DefaultSkin/background/LoadingProgress.gif') no-repeat center;
+  margin: auto;
+  display: block;
+}
+
+.FL {
+	float: left; /* orientation=lt */
+	float: right; /* orientation=rt */
+}
+
+.FR {
+	float: right; /* orientation=lt */
+	float: left; /* orientation=rt */
+}
+
+.UIVirtualList {
+	height: 300px;
+}
