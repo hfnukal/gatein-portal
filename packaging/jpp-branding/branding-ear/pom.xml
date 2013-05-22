@@ -26,7 +26,7 @@
   <parent>
     <groupId>org.gatein.portal</groupId>
     <artifactId>org.gatein.portal.jpp.branding.parent</artifactId>
-    <version>3.6.0.Beta02-SNAPSHOT</version>
+    <version>3.6.0.Final-prod-SNAPSHOT</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -40,20 +40,20 @@
     <dependency>
       <groupId>org.gatein.portal</groupId>
       <artifactId>org.gatein.portal.jpp.branding.config</artifactId>
-      <version>3.6.0.Beta02-SNAPSHOT</version>
+      <version>3.6.0.Final-prod-SNAPSHOT</version>
     </dependency>
 
     <dependency>
       <groupId>org.gatein.portal</groupId>
       <artifactId>org.gatein.portal.jpp.branding.extension</artifactId>
-      <version>3.6.0.Beta02-SNAPSHOT</version>
+      <version>3.6.0.Final-prod-SNAPSHOT</version>
       <type>war</type>
     </dependency>
 
     <dependency>
       <groupId>org.gatein.portal</groupId>
       <artifactId>org.gatein.portal.jpp.branding.skin</artifactId>
-      <version>3.6.0.Beta02-SNAPSHOT</version>
+      <version>3.6.0.Final-prod-SNAPSHOT</version>
       <type>war</type>
     </dependency>
   </dependencies>
