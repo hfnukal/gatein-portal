@@ -71,6 +71,9 @@
     <!-- JPP version override -->
     <version.jboss.jgroups>2.6.22.Final</version.jboss.jgroups>
 
+    <!-- JPP version override -->
+    <version.jboss.jgroups>2.6.22.Final</version.jboss.jgroups>
+
     <!--
     Various log4j properties for unit tests, examples:
     -Dlog4j.debug=true : show log4j bootstrap (useful for debugging resolution to configuration property file)
