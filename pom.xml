@@ -67,6 +67,9 @@
 
     <!-- TODO: Remove after upgrade to gatein-dep 1.2.2 -->
     <version.twitter4j>3.0.3</version.twitter4j>
+    
+    <!-- JPP version override -->
+    <version.jboss.jgroups>2.6.22.Final</version.jboss.jgroups>
 
     <!--
     Various log4j properties for unit tests, examples:
@@ -139,6 +142,13 @@
         <version>1.2.1.Final</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+
+      <!-- JPP - overriding version -->
+      <dependency>
+        <groupId>org.jgroups</groupId>
+        <artifactId>jgroups</artifactId>
+        <version>${version.jboss.jgroups}</version>
       </dependency>
 
       <!-- to move to gatein-dep -->
