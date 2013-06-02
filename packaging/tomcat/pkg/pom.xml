@@ -104,7 +104,7 @@
       <artifactId>javassist</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.jgroups</groupId>
+      <groupId>jgroups</groupId>
       <artifactId>jgroups</artifactId>
     </dependency>
 
@@ -674,7 +674,7 @@
       <artifactId>cglib</artifactId>
     </dependency>
     <dependency>
-      <groupId>oswego-concurrent</groupId>
+      <groupId>concurrent</groupId>
       <artifactId>concurrent</artifactId>
     </dependency>
     <dependency>
@@ -712,6 +712,12 @@
     <dependency>
       <groupId>org.infinispan</groupId>
       <artifactId>infinispan-core</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.jgroups</groupId>
+          <artifactId>jgroups</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.jboss.marshalling</groupId>

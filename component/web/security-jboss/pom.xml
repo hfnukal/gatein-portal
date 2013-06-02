@@ -57,7 +57,15 @@
           <groupId>apache-log4j</groupId>
           <artifactId>log4j</artifactId>
         </exclusion>
-      </exclusions>
+          <exclusion>
+            <groupId>oswego-concurrent</groupId>
+            <artifactId>concurrent</artifactId>
+          </exclusion>
+        </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>concurrent</groupId>
+      <artifactId>concurrent</artifactId>
     </dependency>
   </dependencies>
 

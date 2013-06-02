@@ -146,8 +146,8 @@
       <maven-resource group="org.jboss.cache" artifact="jbosscache-core"/>
     </module-def>
 
-    <module-def name="org.jgroups" slot="gatein">
-      <maven-resource group="org.jgroups" artifact="jgroups"/>
+    <module-def name="jgroups" slot="gatein">
+      <maven-resource group="jgroups" artifact="jgroups"/>
     </module-def>
 
     <module-def name="org.json">
@@ -171,7 +171,7 @@
     </module-def>
 
     <module-def name="edu.oswego.concurrent">
-      <maven-resource group="oswego-concurrent" artifact="concurrent"/>
+      <maven-resource group="concurrent" artifact="concurrent"/>
     </module-def>
 
     <module-def name="org.mozilla.javascript">

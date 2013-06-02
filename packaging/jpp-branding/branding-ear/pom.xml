@@ -53,11 +53,7 @@
     <dependency>
       <groupId>org.gatein.portal</groupId>
       <artifactId>org.gatein.portal.jpp.branding.skin</artifactId>
-<<<<<<< HEAD
-      <version>3.6.1.Final-prod-1</version>
-=======
-      <version>3.6.0.Beta02-SNAPSHOT</version>
->>>>>>> JPP Branding Extension
+      <version>3.6.1.Final-redhat-1</version>
       <type>war</type>
     </dependency>
   </dependencies>

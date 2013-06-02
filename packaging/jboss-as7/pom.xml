@@ -53,11 +53,23 @@
         <groupId>org.jboss.as</groupId>
         <artifactId>jboss-as-ee</artifactId>
         <version>${version.jboss.as}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.jgroups</groupId>
+            <artifactId>jgroups</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.jboss.as</groupId>
         <artifactId>jboss-as-web</artifactId>
         <version>${version.jboss.as}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.jgroups</groupId>
+            <artifactId>jgroups</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.jboss.as</groupId>
@@ -190,6 +202,9 @@
         <jbossas.modules.target.dir>${jbossas.target.dir}/modules/system/add-ons/gatein</jbossas.modules.target.dir>
         <ws.security.consumer.dir>../../../../../../../../../standalone/configuration/gatein/wsrp/cxf/ws-security/consumer</ws.security.consumer.dir>
         <ws.security.producer.dir>../../../../../../../../../standalone/configuration/gatein/wsrp/cxf/ws-security/producer</ws.security.producer.dir>
+
+        <servers.dir>target/servers</servers.dir>
+        <server.name>jboss-eap-6.1</server.name>
       </properties>
     </profile>
   </profiles>

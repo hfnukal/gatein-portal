@@ -34,8 +34,14 @@
     <!--                    -->
     <!-- Deployment Modules -->
     <!--                    -->
+    <dependency>
+      <groupId>org.jboss.as</groupId>
+      <artifactId>jboss-as-dist</artifactId>
+      <type>zip</type>
+      <version>${version.jboss.as}</version>
+    </dependency>
 
-    <!-- Default Portal -->
+      <!-- Default Portal -->
     <dependency>
       <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.web.eXoResources</artifactId>
@@ -231,32 +237,32 @@
             </configuration>
           </execution>
 
-          <execution>
-            <id>check-server-dir-exists</id>
-            <goals>
-              <goal>enforce</goal>
-            </goals>
-            <configuration>
-              <rules>
-                <requireFilesExist>
-                  <files>
-                    <file>${servers.dir}/${server.name}/</file>
-                  </files>
-                  <message>"
-                    The following JBoss AS directory doesn't exist {servers.dir}/{server.name}:
-                    ${servers.dir}/${server.name}
+          <!--<execution>-->
+            <!--<id>check-server-dir-exists</id>-->
+            <!--<goals>-->
+              <!--<goal>enforce</goal>-->
+            <!--</goals>-->
+            <!--<configuration>-->
+              <!--<rules>-->
+                <!--<requireFilesExist>-->
+                  <!--<files>-->
+                    <!--<file>${servers.dir}/${server.name}/</file>-->
+                  <!--</files>-->
+                  <!--<message>"-->
+                    <!--The following JBoss AS directory doesn't exist {servers.dir}/{server.name}:-->
+                    <!--${servers.dir}/${server.name}-->
 
-                    Make JBoss AS instance available at that location, or use -Dservers.dir=PATH to point to the correct
-                    location of servers directory
-                    and/or -Dserver.name=NAME (alternatively use -Djboss7.name=NAME) to point to the correct directory
-                    under the servers directory.
-                    You can also use -Ddownload to automatically provide JBoss AS instance.
-                    "
-                  </message>
-                </requireFilesExist>
-              </rules>
-            </configuration>
-          </execution>
+                    <!--Make JBoss AS instance available at that location, or use -Dservers.dir=PATH to point to the correct-->
+                    <!--location of servers directory-->
+                    <!--and/or -Dserver.name=NAME (alternatively use -Djboss7.name=NAME) to point to the correct directory-->
+                    <!--under the servers directory.-->
+                    <!--You can also use -Ddownload to automatically provide JBoss AS instance.-->
+                    <!--"-->
+                  <!--</message>-->
+                <!--</requireFilesExist>-->
+              <!--</rules>-->
+            <!--</configuration>-->
+          <!--</execution>-->
 
         </executions>
       </plugin>
