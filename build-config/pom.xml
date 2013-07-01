@@ -33,7 +33,7 @@
   <groupId>org.gatein.portal</groupId>
   <artifactId>gatein-portal-build-config</artifactId>
   <name>GateIn Portal: Build Configuration</name>
-  <version>3.6.1.Final-prod-1</version>
+  <version>3.6.1.Final-redhat-1</version>
 
   <licenses>
     <license>
