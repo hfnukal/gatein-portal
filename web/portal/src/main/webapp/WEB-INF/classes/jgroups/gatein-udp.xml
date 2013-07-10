@@ -30,7 +30,7 @@
       ucast_send_buf_size="640000" mcast_recv_buf_size="25000000" mcast_send_buf_size="640000" loopback="false"
       discard_incompatible_packets="true" max_bundle_size="64000" max_bundle_timeout="30"
       ip_ttl="${jgroups.udp.ip_ttl:2}" enable_bundling="false"
-      enable_diagnostics="${jboss.jgroups.enable_diagnostics:true}"
+      enable_diagnostics="${jboss.jgroups.enable_diagnostics:false}"
       diagnostics_addr="${jboss.jgroups.diagnostics_addr:224.0.75.75}"
       diagnostics_port="${jboss.jgroups.diagnostics_port:7500}"
       thread_naming_pattern="cl" thread_pool.enabled="true" thread_pool.min_threads="2"

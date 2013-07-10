@@ -38,7 +38,7 @@
       max_bundle_timeout="30"
       ip_ttl="${jgroups.udp.ip_ttl:2}"
       enable_bundling="true"
-      enable_diagnostics="true"
+      enable_diagnostics="${jboss.jgroups.enable_diagnostics:false}"
       diagnostics_addr="${jboss.jgroups.diagnostics_addr:224.0.75.75}"
       diagnostics_port="${jboss.jgroups.diagnostics_port:7500}"
       thread_naming_pattern="pl"
