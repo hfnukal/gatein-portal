@@ -13,6 +13,11 @@
     display: inline;
 }
 
+#gtnRedirect li {
+   margin: 0 10px;
+   display: inline;
+}
+
 #gtnRedirect a {
     text-decoration: underline;
 }
