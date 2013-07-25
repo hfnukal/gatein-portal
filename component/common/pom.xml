@@ -118,4 +118,36 @@
     </pluginManagement>
   </build>
 
+  <profiles>
+      <profile>
+          <activation>
+              <property>
+                  <name>gatein.dev</name>
+                  <value>jpp</value>
+              </property>
+          </activation>
+          <build>
+              <plugins>
+                  <plugin>
+                      <groupId>org.apache.maven.plugins</groupId>
+                      <artifactId>maven-jar-plugin</artifactId>
+                      <configuration>
+                          <archive>
+                              <index>true</index>
+                              <manifest>
+                                  <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                                  <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                              </manifest>
+                              <manifestEntries>
+                                  <JBoss-Product-Release-Name>${product.name}</JBoss-Product-Release-Name>
+                                  <JBoss-Product-Release-Version>${product.version}</JBoss-Product-Release-Version>
+                              </manifestEntries>
+                          </archive>
+                      </configuration>
+                  </plugin>
+              </plugins>
+          </build>
+      </profile>
+  </profiles>
+
 </project>
