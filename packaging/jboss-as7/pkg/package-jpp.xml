@@ -259,6 +259,9 @@
     <copy tofile="${jbossas.target.dir}/gatein-sso/josso/gatein-josso-181/modules/org/gatein/sso/main/axis-1.4.jar" preservelastmodified="true" overwrite="true" filtering="false">
       <fileset file="${maven.project.basedir}/src/main/patches/CVE-2012-5784/axis-1.4-redhat-1.jar" />
     </copy>
+    <copy tofile="${jbossas.target.dir}/gatein-sso/josso/gatein-josso-182/modules/org/gatein/sso/main/axis-1.4.jar" preservelastmodified="true" overwrite="true" filtering="false">
+      <fileset file="${maven.project.basedir}/src/main/patches/CVE-2012-5784/axis-1.4-redhat-1.jar" />
+    </copy>
 
   </target>
 
