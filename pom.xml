@@ -37,10 +37,6 @@
   <name>GateIn - Portal</name>
 
   <properties>
-
-    <product.name>JBoss JPP</product.name>
-    <product.version>6.1.0-ER03</product.version>
-
     <org.gatein.parent.version>1.2.1.Final-redhat-1</org.gatein.parent.version>
     <org.gatein.dep.version>1.2.1.Final-redhat-2</org.gatein.dep.version>
     <org.exoplatform.kernel.version>2.4.4-GA-redhat-1</org.exoplatform.kernel.version>
@@ -1586,7 +1582,7 @@ memory option properties. This should be removed when we can just set the compil
       </activation>
       <properties>
         <product.name>JBoss JPP</product.name>
-        <product.version>6.1.0.ER1-prod</product.version>
+        <product.version>6.1.0.ER03</product.version>
       </properties>
     </profile>
   </profiles>

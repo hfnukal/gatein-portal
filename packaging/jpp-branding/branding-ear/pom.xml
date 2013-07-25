@@ -26,7 +26,7 @@
   <parent>
     <groupId>org.gatein.portal</groupId>
     <artifactId>org.gatein.portal.jpp.branding.parent</artifactId>
-    <version>3.6.1.Final-prod-1</version>
+    <version>3.6.1.Final-redhat-1</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -40,13 +40,13 @@
     <dependency>
       <groupId>org.gatein.portal</groupId>
       <artifactId>org.gatein.portal.jpp.branding.config</artifactId>
-      <version>3.6.1.Final-prod-1</version>
+      <version>3.6.1.Final-redhat-1</version>
     </dependency>
 
     <dependency>
       <groupId>org.gatein.portal</groupId>
       <artifactId>org.gatein.portal.jpp.branding.extension</artifactId>
-      <version>3.6.1.Final-prod-1</version>
+      <version>3.6.1.Final-redhat-1</version>
       <type>war</type>
     </dependency>
 
