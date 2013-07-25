@@ -245,6 +245,10 @@
   <!-- JPP Related Post Packaging -->
   <target name="post-package">
 
+
+    <!-- Product identification -->
+    <echo file="${jbossas.target.dir}/version.txt">JBoss Portal Platform - Version ${product.version}</echo>
+
     <!-- Move to new location -->
     <move file="${jbossas.target.dir}" tofile="${jbossas.target.dir}/jboss-jpp-6.1"/>
 
